@@ -750,6 +750,7 @@
             padding: 6rem 2rem 2rem;
             transition: var(--transition);
             border-left: 1px solid var(--border);
+            overflow-y: auto;
         }
         .mobile-menu.active { right: 0; }
         .mobile-menu-overlay {
@@ -798,7 +799,7 @@
                 gap: 3rem;
             }
             .hero-image-wrapper { width: 300px; height: 300px; }
-            .nav-links { display: none; }
+            .navbar .nav-links { display: none; }
             .mobile-menu-btn { display: block; }
             .hero { padding-top: 6rem; }
         }

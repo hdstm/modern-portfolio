@@ -316,12 +316,3 @@
 
         setLanguage('en');
         setTheme('dark');
-
-        window.addEventListener('load', () => {
-            document.querySelectorAll('.fade-in').forEach(el => {
-                if (el.getBoundingClientRect().top < window.innerHeight) {
-                    el.classList.add('visible');
-                }
-            });
-        });
- 
